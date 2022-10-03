@@ -1,0 +1,18 @@
+{
+  "name": "pascal",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue": "^3.0.1",
+    "sass": "^1.54.0",
+    "vue": "^3.0.4",
+    "xml-js": "^1.6.11"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.0.4",
+    "vite": "^3.0.2"
+  }
+}

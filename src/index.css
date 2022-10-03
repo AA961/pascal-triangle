@@ -1,0 +1,55 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+
+input {
+  padding: 0.5rem;
+  border: 3px solid black;
+  width: 450px;
+  font-size: 1rem;
+  outline: none;
+  border-radius: 5px;
+  color: black;
+}
+
+button {
+  padding: 0.6rem 2rem;
+  outline: none;
+  border: none;
+  background-color: black;
+  color: white;
+  transition: all 0.3s ease-in;
+  cursor: pointer;
+  margin: 1rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+button:hover {
+  background-color: brown;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col {
+  flex-direction: column;
+}
+
+.contianer {
+  max-width: 1152px;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: rgb(162, 205, 255);
+}
