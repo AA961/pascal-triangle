@@ -40,7 +40,7 @@ export default {
 
   data() {
     return {
-      value: null,
+      value: 3,
       pascal: [],
       tree: []
     }
@@ -111,7 +111,7 @@ export default {
 
 }
 
-.heading{
+.heading {
   font-size: 2.9rem;
 }
 
