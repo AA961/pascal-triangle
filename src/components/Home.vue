@@ -108,6 +108,33 @@ export default {
   display: inline-block;
   transition: all 0.5 ease-in-out;
 
+  @media (max-width:400px) {
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    padding: 2px !important;
+    font-weight: 600;
+    margin: 4px;
+    width: 16px;
+    display: inline-block;
+    transition: all 0.5 ease-in-out;
+    font-size: 10px;
+  }
+
+  @media (max-width:576px) {
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    padding: 2px !important;
+    font-weight: 600;
+    margin: 4px;
+    width: 24px;
+    display: inline-block;
+    transition: all 0.5 ease-in-out;
+    font-size: 13px;
+
+  }
+
   &:nth-child(odd) {
     background: rgb(1, 117, 117);
   }
