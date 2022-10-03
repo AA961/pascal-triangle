@@ -69,7 +69,10 @@ export default {
       this.pascal.push(triangle)
     },
 
-  }
+  },
+  mounted() {
+    this.gettingPascal(this.value)
+  },
 }
 </script>
 <style scoped lang="scss">
