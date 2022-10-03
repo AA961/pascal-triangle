@@ -35,21 +35,21 @@ button:hover {
   background-color: brown;
 }
 
-.flex {
+/* .flex {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
-.col {
+/* .col {
   flex-direction: column;
-}
+} */
 
-.contianer {
+/* .contianer {
   max-width: 1152px;
-}
+} */
 
 body {
-  overflow-x: hidden;
+  overflow-x: scroll;
   background-color: rgb(162, 205, 255);
 }
